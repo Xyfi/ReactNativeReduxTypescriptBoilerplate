@@ -6,6 +6,8 @@ import {
 } from "react-native";
 
 import Provider from "./redux-helper/Provider";
+import ReduxCounter from "./containers/ReduxCounter";
+import ReduxCounterImmutable from "./containers/ReduxCounterImmutable";
 
 class App extends React.Component<{}, {}> {
   render(): JSX.Element {
@@ -23,6 +25,8 @@ class App extends React.Component<{}, {}> {
             Shake or press menu button for dev menu
           </Text>
         </View>
+        <ReduxCounter />
+        <ReduxCounterImmutable />
       </Provider>
     );
   }
