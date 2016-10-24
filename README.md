@@ -1,7 +1,7 @@
 # ReactNativeReduxTypescriptBoilerplate
-A boilerplate project for a react native application using typescript 2.0, redux and and a example of how to use redux with immutablejs.
+A boilerplate project for a react native application using typescript 2.0, redux and and an example of how to use redux with immutablejs.
 
-Make sure react-native-cli and typescript are installed globally trough npm.
+Make sure react-native-cli and typescript are installed globally with npm.
 
 Install dependencies:
 
